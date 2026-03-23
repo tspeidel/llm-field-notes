@@ -77,3 +77,9 @@ When writing R code, follow these coding style rules as much as possible:
 - **One operation per verb call**: Prefer separate calls for tidyverse verbs rather than combining multiple operations inside a single call. For example, use two `mutate()` calls each with one transformation rather than one `mutate()` with two. Same applies to `filter()`, `select()`, and other dplyr verbs.
 - **Argument placement**: For tidyverse verbs and short function calls, place arguments on the same line as the function name. Reserve the multi-line form (arguments on subsequent lines) for calls with many arguments (roughly 4+), in which case the first argument still begins on the same line as the function name.
 
+<br>
+
+# References
+- My numerous conversations with my friend Matteo Niccoli from whom I learned 90% of this
+- Claude subreddit
+- 
